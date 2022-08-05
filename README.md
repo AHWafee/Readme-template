@@ -22,7 +22,7 @@ ___
 <i>This is an italic text</i><!--html system--><br/>
 _This is also an italic text._<!--markdown formate-->
 
-__This is bold text__<--markdown formate-->
+__This is bold text__<!--markdown formate-->
 
 <u>underline text</u><!--for under line HTML formate-->
 
@@ -30,13 +30,15 @@ __This is bold text__<--markdown formate-->
 ~~this is~~<!--markdrop-->
 
 <!--oneline code-->
-`This is inline`
-`<h1>Bangladedh</h1>`
+`This is inline`  
+`<h1> Bangladedh </h1>`
 
 <br/>
 
 <!--multiple line code-->
-```c<!--after three signs write the code language name for formating-->
+<!--after three signs write the code language name for formating-->
+
+```c
 #include <stdio.h>
 
 int main
@@ -116,4 +118,18 @@ int main
 <br/>
 
 ### Image syntax
-<!--syntax ![alt text] (image)-->
+<!--syntax ![alt text](image)-->
+![Deer](./1.jpg )
+<!--Can't set the height and weight-->
+
+<!--Can set the height and width in HTML formate-->
+<img src="./1.jpg" height='750' width='1750' title='Deer(Adjusted size)'>
+
+<br/>
+
+### Table syntax
+
+| Name | Email |
+| ----- | ------ |
+| AH Wafee | abrarhasinw@gmail.com |
+| Abrar Hasin Wafee | Some e-mail |
