@@ -132,4 +132,4 @@ int main
 | Name | Email |
 | ----- | ------ |
 | AH Wafee | abrarhasinw@gmail.com |
-| Abrar Hasin Wafee | Some e-mail |
+| Abrar Hasin Wafee | some e-mail |
